@@ -15,67 +15,67 @@ _Таблица 1. Таблица кодов устройств_
         </tr>
         <tr>
             <td><code>0x0001</code></td>
-            <td align="left"><a href="maps/empty%20[0x0001].md">Пустое устройство (тест)</a></td>
+            <td align="left"><a href="maps/empty%20[0001].md">Пустое устройство (тест)</a></td>
             <td>4</td>
             <td>4</td>
         </tr>
         <tr>
             <td><code>0x8001</code></td>
-            <td align="left"><a href="maps/mezo%20master%20[0x80001].md">Мастер состояния мезонинов</a></td>
+            <td align="left"><a href="maps/mezo%20master%20[80001].md">Мастер состояния мезонинов</a></td>
             <td>28</td>
             <td>48</td>
         </tr>
         <tr>
             <td><code>0x0002</code></td>
-            <td align="left"><a href="maps/di%20[0x0002].md">Дискретный вход</a></td>
+            <td align="left"><a href="maps/di%20[0002].md">Дискретный вход</a></td>
             <td>4</td>
             <td>4</td>
         </tr>
         <tr>
             <td><code>0x8002</code></td>
-            <td align="left"><a href="maps/di%20master%20[0x8002].md">Мастер дискретных входов</a></td>
+            <td align="left"><a href="maps/di%20master%20[8002].md">Мастер дискретных входов</a></td>
             <td>N / 8 + 4</td>
             <td>8</td>
         </tr>
         <tr>
             <td><code>0x0003</code></td>
-            <td align="left"><a href="maps/do%20[0x0003].md">Дискретный выход</a></td>
+            <td align="left"><a href="maps/do%20[0003].md">Дискретный выход</a></td>
             <td>4</td>
             <td>4</td>
         </tr>
         <tr>
             <td><code>0x8003</code></td>
-            <td align="left"><a href="maps/do%20master%20[0x8003].md">Мастер дискретных выходов</a></td>
+            <td align="left"><a href="maps/do%20master%20[8003].md">Мастер дискретных выходов</a></td>
             <td>N / 8 + 4 + N</td>
             <td>8</td>
         </tr>
         <tr>
             <td><code>0x0004</code></td>
-            <td align="left"><a href="maps/ai%20[0x0004].md">Аналоговый вход</a></td>
+            <td align="left"><a href="maps/ai%20[0004].md">Аналоговый вход</a></td>
             <td>32</td>
             <td>24</td>
         </tr>
         <tr>
             <td><code>0x8004</code></td>
-            <td align="left"><a href="maps/ai%20master%20[0x8004].md">Мастер аналоговых входов</a></td>
+            <td align="left"><a href="maps/ai%20master%20[8004].md">Мастер аналоговых входов</a></td>
             <td>12 * N + 4</td>
             <td>8</td>
         </tr>
         <tr>
             <td><code>0x0041</code></td>
-            <td align="left"><a href="maps/ao%20[0x0041].md">Аналоговый выход</a></td>
+            <td align="left"><a href="maps/ao%20[0041].md">Аналоговый выход</a></td>
             <td>32</td>
             <td>24</td>
         </tr>
         <tr>
             <td><code>0x0006</code></td>
-            <td align="left"><a href="maps/pu%20[0x0006].md">Мезонин питания СР6761</a></td>
+            <td align="left"><a href="maps/pu%20[0006].md">Мезонин питания СР6761</a></td>
             <td>4</td>
             <td>4</td>
         </tr>
         <tr>
             <td><code>0x6921</code></td>
-            <td align="left"><a href="maps/rc%20[0x6921].md">Мезонин подключения пульта СР6921</a></td>
+            <td align="left"><a href="maps/rc%20[6921].md">Мезонин подключения пульта СР6921</a></td>
             <td>4</td>
             <td>4</td>
         </tr>
