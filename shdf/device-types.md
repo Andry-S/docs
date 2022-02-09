@@ -44,7 +44,7 @@ _Таблица 1. Таблица кодов устройств_
         </tr>
         <tr>
             <td><code><strong>0x8002</strong></code></td>
-            <td align="left"><a href="/shdf/maps/di%20master%20[8002].md">Мастер дискретных входов</a></td>
+            <td align="left"><a href="/shdf/maps/mdi%20[8002].md">Мастер дискретных входов</a></td>
             <td>N / 8 + 4</td>
             <td>8</td>
         </tr>
@@ -56,7 +56,7 @@ _Таблица 1. Таблица кодов устройств_
         </tr>
         <tr>
             <td><code><strong>0x8003</strong></code></td>
-            <td align="left"><a href="/shdf/maps/do%20master%20[8003].md">Мастер дискретных выходов</a></td>
+            <td align="left"><a href="/shdf/maps/mdo%20[8003].md">Мастер дискретных выходов</a></td>
             <td>N / 8 + 4 + N</td>
             <td>8</td>
         </tr>
@@ -68,7 +68,7 @@ _Таблица 1. Таблица кодов устройств_
         </tr>
         <tr>
             <td><code><strong>0x8004</strong></code></td>
-            <td align="left"><a href="maps/ai%20master%20[8004].md">Мастер аналоговых входов</a></td>
+            <td align="left"><a href="maps/mai%20[8004].md">Мастер аналоговых входов</a></td>
             <td>12 * N + 4</td>
             <td>8</td>
         </tr>
