@@ -2,11 +2,11 @@
 
 <!-- ![logo](img/image1.jpg) -->
 
-- [Автоматизация](docs/automation/)  
-  - [OPC](docs/automation/OPC)  
-- [ШДФ](docs/shdf/)
-  - [Карта памяти заданных типов устройств ШДФ](docs/shdf/devices-map.md)
-  - [Типы (коды) устройств ШДФ](docs/shdf/device-types.md)
+- [Автоматизация](/docs/automation/)  
+  - [OPC](/docs/automation/OPC)  
+- [ШДФ](/docs/shdf/)
+  - [Карта памяти заданных типов устройств ШДФ](/docs/shdf/devices-map.md)
+  - [Типы (коды) устройств ШДФ](/docs/shdf/device-types.md)
   - [Карты памяти устройств ШДФ:](/docs/shdf/maps/)
     - [`[0001] Пустое устройство (тест)`](/docs/shdf/maps/empty%20[0001].md)
     - [`[0002] Дискретный вход`](/docs/shdf/maps/di%20[0002].md)
