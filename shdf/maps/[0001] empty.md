@@ -45,7 +45,7 @@
             <td align="left"><strong>Примечание</strong></td>
         </tr>
         <tr>
-            <td colspan="6">Нет настроек</td>
+          <td colspan="6"><i>Нет настроек</i></td>
         </tr>
     </tbody>
 </table>
@@ -63,7 +63,7 @@
             <td align="left"><strong>Примечание</strong></td>
         </tr>
         <tr>
-            <td colspan="6">Нет настроек</td>
+          <td colspan="6"><i>Нет настроек</i></td>
         </tr>
     </tbody>
 </table>
