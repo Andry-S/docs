@@ -48,8 +48,38 @@ _Таблица 1. Таблица кодов устройств_
             <td colspan="4" align="left"><strong>Простые устройства (входы, выходы и т.п.)</strong></td>
         </tr>
         <tr>
-            <td><code><strong>0x0001</strong></code></td>
-            <td align="left"><a href="/shdf/maps/empty%20[0001].md">Пустое устройство (тест)</a></td>
+            <td><code><strong>0x0002</strong></code></td>
+            <td align="left"><a href="/shdf/maps/di%20[0002].md">Дискретный вход</a></td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><code><strong>0x0003</strong></code></td>
+            <td align="left"><a href="/shdf/maps/do%20[0003].md">Дискретный выход</a></td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><code><strong>0x0004</strong></code></td>
+            <td align="left"><a href="/shdf/maps/ai%20[0004].md">Аналоговый вход</a></td>
+            <td>32</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td><code><strong>0x0041</strong></code></td>
+            <td align="left"><a href="/shdf/maps/ao%20[0041].md">Аналоговый выход</a></td>
+            <td>32</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td><code><strong>??? 0x0006</strong></code></td>
+            <td align="left"><a href="/shdf/maps/pu%20[0006].md">Мезонин питания СР6761</a></td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><code><strong>??? 0x6921</strong></code></td>
+            <td align="left"><a href="/shdf/maps/rc%20[6921].md">Мезонин подключения пульта СР6921</a></td>
             <td>4</td>
             <td>4</td>
         </tr>
@@ -60,22 +90,10 @@ _Таблица 1. Таблица кодов устройств_
             <td>48</td>
         </tr>
         <tr>
-            <td><code><strong>0x0002</strong></code></td>
-            <td align="left"><a href="/shdf/maps/di%20[0002].md">Дискретный вход</a></td>
-            <td>4</td>
-            <td>4</td>
-        </tr>
-        <tr>
             <td><code><strong>0x8002</strong></code></td>
             <td align="left"><a href="/shdf/maps/mdi%20[8002].md">Мастер дискретных входов</a></td>
             <td>N / 8 + 4</td>
             <td>8</td>
-        </tr>
-        <tr>
-            <td><code><strong>0x0003</strong></code></td>
-            <td align="left"><a href="/shdf/maps/do%20[0003].md">Дискретный выход</a></td>
-            <td>4</td>
-            <td>4</td>
         </tr>
         <tr>
             <td><code><strong>0x8003</strong></code></td>
@@ -84,53 +102,29 @@ _Таблица 1. Таблица кодов устройств_
             <td>8</td>
         </tr>
         <tr>
-            <td><code><strong>0x0004</strong></code></td>
-            <td align="left"><a href="/shdf/maps/ai%20[0004].md">Аналоговый вход</a></td>
-            <td>32</td>
-            <td>24</td>
-        </tr>
-        <tr>
             <td><code><strong>0x8004</strong></code></td>
             <td align="left"><a href="maps/mai%20[8004].md">Мастер аналоговых входов</a></td>
             <td>12 * N + 4</td>
             <td>8</td>
         </tr>
         <tr>
-            <td><code><strong>0x0041</strong></code></td>
-            <td align="left"><a href="/shdf/maps/ao%20[0041].md">Аналоговый выход</a></td>
-            <td>32</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td><code><strong>0x0006</strong></code></td>
-            <td align="left"><a href="/shdf/maps/pu%20[0006].md">Мезонин питания СР6761</a></td>
-            <td>4</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td><code><strong>0x6921</strong></code></td>
-            <td align="left"><a href="/shdf/maps/rc%20[6921].md">Мезонин подключения пульта СР6921</a></td>
-            <td>4</td>
-            <td>4</td>
-        </tr>
-        <tr>
             <td colspan="4" align="left"><strong>Составные устройства (в составе ссылки на простые либо составные устройства)</strong></td>
         </tr>
         <tr>
             <td><code><strong>0x0135</strong></code></td>
-            <td align="left"><a href="/shdf/maps/reg%20[0135].md">Регулятор 6835</a></td>
+            <td align="left"><a href="/shdf/maps/reg%20[0135].md">Регулятор СР6835</a></td>
             <td>64</td>
             <td>92</td>
         </tr>
         <tr>
             <td><code><strong>0x0136</strong></code></td>
-            <td align="left"><a href="/shdf/maps/reg%20[0136].md">Регулятор 6836</a></td>
+            <td align="left"><a href="/shdf/maps/reg%20[0136].md">Регулятор СР6836</a></td>
             <td>64</td>
             <td>160</td>
         </tr>
         <tr>
             <td><code><strong>0x0247</strong></code></td>
-            <td align="left"><a href="/shdf/maps/valve%20[0247].md">Задвижка 6847</a></td>
+            <td align="left"><a href="/shdf/maps/valve%20[0247].md">Задвижка СР6847</a></td>
             <td>64</td>
             <td>64</td>
         </tr>
