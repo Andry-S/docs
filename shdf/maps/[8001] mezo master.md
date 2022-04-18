@@ -196,3 +196,115 @@
         </tr>
     </tbody>
 </table>
+
+## Карта памяти `EEPROM`
+
+<table summary="Карта памяти `MROM`" border="1">
+    <tbody valign="center" align="center">
+        <tr>
+            <td><strong>Индекс</strong></td>
+            <td><strong>Регистр</strong></td>
+            <td><strong>Смещение</strong></td>
+            <td><strong>Бит</strong></td>
+            <td align="left"><strong>Назначение</strong></td>
+            <td align="left"><strong>Примечание</strong></td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:001</code></td>
+            <td rowspan="2">0</td>
+            <td>0</td>
+            <td>BYTE</td>
+            <td align="left">Номер опрашиваемой колодки</td>
+            <td>1...4</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:002</code></td>
+            <td><i>1</i></td>
+            <td><i>BYTE</i></td>
+            <td align="left"><i>Резерв</i></td>
+            <td>—</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:003</code></td>
+            <td rowspan="2"><i>1</i></td>
+            <td><i>2</i></td>
+            <td><i>BYTE</i></td>
+            <td align="left"><i>Резерв</i></td>
+            <td>—</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:004</code></td>
+            <td><i>3</i></td>
+            <td><i>BYTE</i></td>
+            <td align="left"><i>Резерв</i></td>
+            <td>—</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:005</code></td>
+            <td rowspan="2">2</td>
+            <td>4</td>
+            <td>BYTE</td>
+            <td align="left">Состояние мезонина М1-1</td>
+            <td rowspan="10" align="left">Коды типов мезонинов:<br><code>0x11</code> – СР6711<br><code>0x13</code> – СР6713<br><code>0x23</code> – СР6723<br><code>0x24</code> – СР6724<br><code>0x25</code> – СР6725<br><code>0x26</code> – СР6726<br><code>0x31</code> – СР6731<br><code>0x32</code> – СР6732<br><code>0x41</code> – СР6741<br><code>0x51</code> – СР6751<br><code>0x61</code> – СР6761</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:006</code></td>
+            <td>5</td>
+            <td>BYTE</td>
+            <td align="left">Состояние мезонина М1-2</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:027</code></td>
+            <td rowspan="2">13</td>
+            <td>26</td>
+            <td>BYTE</td>
+            <td align="left">Состояние мезонина М1-21</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:028</code></td>
+            <td>27</td>
+            <td>BYTE</td>
+            <td align="left">Состояние мезонина М1-22</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:029</code></td>
+            <td rowspan="2">14</td>
+            <td>28</td>
+            <td>BYTE</td>
+            <td align="left">Состояние мезонина М2-1</td>
+        </tr>
+        <tr>
+            <td><code>EEPROM:030</code></td>
+            <td>29</td>
+            <td>BYTE</td>
+            <td align="left">Состояние мезонина М2-2</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td><code>MROM:047</code></td>
+            <td rowspan="2">23</td>
+            <td>46</td>
+            <td>BYTE</td>
+            <td align="left">Состояние мезонина М2-21</td>
+        </tr>
+        <tr>
+            <td><code>MROM:048</code></td>
+            <td>47</td>
+            <td>BYTE</td>
+            <td align="left">Состояние мезонина М2-22</td>
+        </tr>
+    </tbody>
+</table>
