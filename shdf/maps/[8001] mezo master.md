@@ -181,7 +181,7 @@
         </tr>
         <tr>
             <td><code>MROM:041</code></td>
-            <td rowspan="2">13</td>
+            <td rowspan="2"><i>13</i></td>
             <td><i>26</i></td>
             <td><i>BYTE</i></td>
             <td align="left"><i>Резерв</i></td>
